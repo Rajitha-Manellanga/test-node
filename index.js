@@ -1,3 +1,5 @@
+//this is just an example only for testing purposes
+
 import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
@@ -26,3 +28,4 @@ app.get('/', (req, res) =>
 app.listen(PORT, () =>
     console.log(`your server is running on port ${PORT}`)
 );
+
